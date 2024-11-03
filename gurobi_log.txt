@@ -39,3 +39,95 @@ Solution count 5: 901663 901714 906136 ... 926741
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.016634105000e+05, best bound 9.016131630000e+05, gap 0.0056%
+
+Gurobi 11.0.3 (win64) logging started Sun Nov  3 16:41:24 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 26 rows, 30 columns and 75 nonzeros
+Model fingerprint: 0x793a5b42
+Variable types: 0 continuous, 30 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+02, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+03, 1e+06]
+Presolve removed 18 rows and 15 columns
+Presolve time: 0.00s
+Presolved: 8 rows, 15 columns, 36 nonzeros
+Variable types: 0 continuous, 15 integer (0 binary)
+Found heuristic solution: objective 924476.83600
+
+Root relaxation: objective 9.014740e+05, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 901474.016    0    5 924476.836 901474.016  2.49%     -    0s
+H    0     0                    902018.82950 901474.016  0.06%     -    0s
+H    0     0                    901765.06700 901474.016  0.03%     -    0s
+     0     0 901598.807    0    6 901765.067 901598.807  0.02%     -    0s
+*    0     0               0    901663.41050 901663.410  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (12 simplex iterations) in 0.04 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 901663 901765 902019 924477 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.016634105000e+05, best bound 9.016634105000e+05, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Sun Nov  3 16:43:02 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 26 rows, 30 columns and 75 nonzeros
+Model fingerprint: 0x793a5b42
+Variable types: 0 continuous, 30 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e+02, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+03, 1e+06]
+Presolve removed 18 rows and 15 columns
+Presolve time: 0.00s
+Presolved: 8 rows, 15 columns, 36 nonzeros
+Variable types: 0 continuous, 15 integer (0 binary)
+Found heuristic solution: objective 924476.83600
+
+Root relaxation: objective 9.014740e+05, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 901474.016    0    5 924476.836 901474.016  2.49%     -    0s
+H    0     0                    902018.82950 901474.016  0.06%     -    0s
+H    0     0                    901765.06700 901474.016  0.03%     -    0s
+     0     0 901598.807    0    6 901765.067 901598.807  0.02%     -    0s
+*    0     0               0    901663.41050 901663.410  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 5
+  StrongCG: 2
+
+Explored 1 nodes (12 simplex iterations) in 0.05 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 901663 901765 902019 924477 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.016634105000e+05, best bound 9.016634105000e+05, gap 0.0000%
