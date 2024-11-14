@@ -131,3 +131,141 @@ Solution count 4: 901663 901765 902019 924477
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.016634105000e+05, best bound 9.016634105000e+05, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Thu Nov 14 23:34:46 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 30 rows, 20 columns and 80 nonzeros
+Model fingerprint: 0x0a495434
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 4e+04]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+06]
+Presolve removed 5 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        30         -         0        15         -           0s
+        2         2         2         2         2         2           0s
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.04 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Gurobi 11.0.3 (win64) logging started Thu Nov 14 23:35:58 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 30 rows, 20 columns and 80 nonzeros
+Model fingerprint: 0xceeb00f0
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 4e+04]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Presolve removed 10 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        30         -         0        15         -           0s
+        4         4         4         0         0         0           0s
+
+IIS computed: 4 constraints, 0 bounds
+IIS runtime: 0.01 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Gurobi 11.0.3 (win64) logging started Thu Nov 14 23:37:53 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 15 rows, 20 columns and 50 nonzeros
+Model fingerprint: 0xb6e1d799
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 4e+04]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        15         -         0        15         -           0s
+        2         2         2         2         2         2           0s
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.02 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
