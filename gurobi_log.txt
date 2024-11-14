@@ -591,3 +591,494 @@ Solution count 4: 3.2604e+08 3.50111e+08 5.05456e+08 5.05456e+08
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.260396720500e+08, best bound 3.260396107000e+08, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:01:47 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xdd63bf94
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 20 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        45         -         0        15         -           0s
+        2         2         2         2         2         2           0s
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.01 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:02:53 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x3213f794
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 20 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        45         -         0        15         -           0s
+        2         2         2         2         2         2           0s
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.01 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:04:00 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x76934e36
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 3.2604e+08 3.32539e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.260396717750e+08, best bound 3.260396717750e+08, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:10:33 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xd5ef6dad
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 2.79523e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.795228845750e+08, best bound 2.795227213250e+08, gap 0.0001%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:11:44 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x74420909
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [9e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 1.3986e+08 1.50176e+08 2.16751e+08 ... 2.16751e+08
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.398602188000e+08, best bound 1.398601574500e+08, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:12:17 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x1156344c
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 1 rows, 3 columns, 3 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 2.81308e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.813082685000e+07, best bound 2.813058180000e+07, gap 0.0009%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:13:16 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xed29fa8b
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 2.81308e+07 3.01939e+07 4.35087e+07 4.3509e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.813082657500e+07, best bound 2.813060197500e+07, gap 0.0008%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:15:03 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x69494db4
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 20 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0        45         -         0        15         -           0s
+        2         2         2         2         2         2           0s
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.01 seconds (0.00 work units)
+Warning: variable name "x[Central Region,Monocrystalline]" has a space
+Warning: constraint name "Demand_Constraint_Central Region" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+
+IIS computed: 2 constraints, 2 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:15:25 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xd5ef6dad
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 2.79523e+08 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.795228845750e+08, best bound 2.795227213250e+08, gap 0.0001%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:18:14 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x74420909
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [9e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 5: 1.3986e+08 1.50176e+08 2.16751e+08 ... 2.16751e+08
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.398602188000e+08, best bound 1.398601574500e+08, gap 0.0000%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:24:47 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0x306b38b5
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 1 rows, 3 columns, 3 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 2.34561e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.345607977500e+07, best bound 2.345591652500e+07, gap 0.0007%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:25:20 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xf3d55e32
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+03, 1e+09]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 4.67146e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.671460557500e+07, best bound 4.671444232500e+07, gap 0.0003%
+
+Gurobi 11.0.3 (win64) logging started Fri Nov 15 00:33:41 2024
+
+Set parameter LogFile to value "gurobi_log.txt"
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: AMD Ryzen 7 5825U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 45 rows, 20 columns and 95 nonzeros
+Model fingerprint: 0xc661d90b
+Variable types: 0 continuous, 20 integer (5 binary)
+Coefficient statistics:
+  Matrix range     [7e-02, 1e+100]
+  Objective range  [3e+02, 4e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+03, 4e+07]
+Warning: Model contains large matrix coefficient range
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 4.67146e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.671460557500e+07, best bound 4.671444232500e+07, gap 0.0003%
