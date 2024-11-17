@@ -87,6 +87,9 @@ carpark_areas = { (row['region'], row['carpark_label']): row['carpark_area'] for
 # Create a new model
 model = gp.Model("solar_optimization")
 
+# Set a time limit
+model.setParam(GRB.Param.TimeLimit,60)
+
 x = model.addVars(
     [(region, panel_type, carpark) 
      for region in regions 
@@ -140,33 +143,29 @@ for region in regions:
 # Optimize the model
 model.optimize()
 
-# Check if the model has an optimal solution
-if model.status == GRB.OPTIMAL:
-    # Create lists to store the results
-    results = []
+# Create lists to store the results
+results = []
 
-    # Iterate over regions and carparks to collect results
-    for region in regions:
-        for carpark in range(1, carpark_per_region[region] + 1):
-            # Collect the binary decision variable y
-            y_value = y[region, carpark].X
-            # Collect the continuous decision variables x for each panel type
-            x_values = {panel: x[region, panel, carpark].X for panel in types_of_panels}
-            # Append the results to the list
-            results.append({
-                'Region': region,
-                'Carpark': carpark,
-                'y': y_value,
-                **x_values
-            })
+# Iterate over regions and carparks to collect results
+for region in regions:
+    for carpark in range(1, carpark_per_region[region] + 1):
+        # Collect the binary decision variable y
+        y_value = y[region, carpark].X
+        # Collect the continuous decision variables x for each panel type
+        x_values = {panel: x[region, panel, carpark].X for panel in types_of_panels}
+        # Append the results to the list
+        results.append({
+            'Region': region,
+            'Carpark': carpark,
+            'y': y_value,
+            **x_values
+        })
 
-    # Create a DataFrame from the results
-    df_results = pd.DataFrame(results)
+# Create a DataFrame from the results
+df_results = pd.DataFrame(results)
 
-    # Print the DataFrame
-    print(df_results)
-else:
-    print("No optimal solution found.")
+# Print the DataFrame
+print(df_results)  
 
 df_results.to_excel("results.xlsx")
 
